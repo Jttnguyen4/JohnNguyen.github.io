@@ -1,0 +1,88 @@
+
+<html>
+
+	<head>
+
+		<title>John Nguyen</title>
+		<link rel = "stylesheet" type = "text/css" href = "portfoliostyle.css" />
+
+	</head>
+
+	<style>
+		.wrapper{
+			display: grid;
+			grid-template-columns: 2fr 2fr;
+			grid-auto-rows: minmax(100px, auto);
+			grid-gap: 2em;
+		}
+
+		.wrapper > div{
+			padding: 1em;
+		}
+
+
+		.box1{
+			background: #50AE62;
+			text-align: center;
+			font-size: 50;
+			grid-column: 1;
+			grid-row: 1/5;
+		}
+
+		.box2{
+			background: #92FF83;
+			text-align: center;
+			display: grid;
+			place-items: center;
+			font-size: 50;
+			grid-column: 2;
+			grid-row: 1/5;
+		}
+
+
+	</style>
+	
+
+
+	<body>
+
+		<div id = "container">
+
+			<div id = "content">
+				<div id = "nav">
+					<ul>
+						<li><a href = "file:///Users/truong/Desktop/Portfolio/home/homepage.html">Home</a></li>
+						<li><a class = "selected" href = "">Portfolio</a></li>
+						<li><a href = "file:///Users/truong/Desktop/Portfolio/resume/resumepage.html">Resume</a></li>
+						<li><a href = "file:///Users/truong/Desktop/Portfolio/contact/contactpage.html">Contact</a></li>
+					</ul>
+				</div>
+				
+				<div>
+					<p></p>
+				</div>
+
+				<div class = "wrapper">
+					<div class = "box box1">
+						<h1>TECHSMITH</h1>
+						<p>Click here to find out more:</p>
+						<a class = "link" href="https://docs.google.com/presentation/d/1hBEh1_bqMUB20eRl7sT7xfcbfc50v7K-lLNuzqy30nM/edit#slide=id.p" target="_blank"> Click Here
+						</a>
+					</div>
+
+					<div class = "box box2">
+						<h1>COMING SOON!</h1>
+					</div>
+
+				</div>
+			</div>
+				
+			<div id = "footer">
+				Copyright &copy; 2022 John Nguyen.
+			</div>
+
+		</div>
+
+	</body>	
+
+</html>

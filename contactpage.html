@@ -1,0 +1,89 @@
+
+<html>
+
+	<head>
+
+		<title>John Nguyen</title>
+		<link rel = "stylesheet" type = "text/css" href = "contactstyle.css" />
+
+	</head>
+
+	<style>
+		.wrapper{
+			display: grid;
+			grid-template-columns: 2fr 2fr;
+			grid-auto-rows: minmax(100px, auto);
+			grid-gap: 2em;
+		}
+
+		.wrapper > div{
+			padding: 1em;
+		}
+
+
+		.box1{
+			background: #38BC5D;
+			grid-column: 1;
+			grid-row: 1/4;
+			display: grid;
+			place-items: center;
+		}
+
+		.box2{
+			background: #69CA5C;
+			grid-column: 2;
+			grid-row: 1/4;
+			display: grid;
+			place-items: center;
+		}
+
+	</style>
+	
+
+
+	<body>
+
+		<div id = "container">
+
+			<div id = "content">
+
+				<div id = "nav">
+					<ul>
+						<li><a href = "file:///Users/truong/Desktop/Portfolio/home/homepage.html">Home</a></li>
+						<li><a href = "file:///Users/truong/Desktop/Portfolio/portfolio/portfoliopage.html">Portfolio</a></li>
+						<li><a href = "file:///Users/truong/Desktop/Portfolio/resume/resumepage.html">Resume</a></li>
+						<li><a class = "selected" href = "">Contact</a></li>
+					</ul>
+				</div>
+				
+				<div>
+					<br />
+					<br />
+					<font color = "#ACBF71"><font size= "6"><center><h1>CONTACT ME</h1></center></font></font>
+					<br />
+					<br />
+				</div>
+
+				<div class = "wrapper">
+					<div class = "box box1">
+						<font color = "#A8F4B0"> <font size = 5><p>#Phone Number</p></font></font>
+						<font color = "#A8F4B0"> <font size = 5><p>nguye713@msu.edu</p></font></font>
+						<font color = "#A8F4B0"> <font size = 5><p>https://www.linkedin.com/in/john-nguyen-525896193/</p></font></font>
+					</div>
+
+					<div class = "box box2">
+						<img src="name.jpeg" width= "700" height= "320">
+					</div>
+
+				</div>
+			</div>
+				
+			<div id = "footer">
+				Copyright &copy; 2022 John Nguyen.
+			</div>
+
+		</div>
+
+	</body>	
+
+</html>
